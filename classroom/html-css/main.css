@@ -1,0 +1,11 @@
+div{
+    border: 5px solid black;
+    height: 200px ;
+    border-color:red blue green yellow;
+    width: 200px;
+    padding: 20px;
+    margin: 30px 20px 0;
+    border-radius: 50px ;
+    box-sizing: border-box;
+
+}
