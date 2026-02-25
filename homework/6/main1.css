@@ -1,0 +1,47 @@
+.contanier{
+position: relative;
+width: 400px;
+height: 400px;
+}
+    
+
+
+.box{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+}
+.box1{
+background: red;
+top: 0;
+left: 0;
+position: absolute;
+}
+.box2{
+    background: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.box3{
+    background-color: blue;
+    position: absolute;
+    bottom: 0;
+    left: 0
+}
+.box4{
+    border:8px solid black ;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+}
+.circle{
+    width: 120px;
+    height: 120px;
+    border: 8px solid yellow;
+    border-radius: 50%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    translate: -50% -50%;
+}
