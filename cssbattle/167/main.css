@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+    mrgin: 0;
+    padding: 0;
+}
+.container{
+    width: 400px;
+    height: 300px;
+    position: relative;
+    background: black;
+}
+.centre{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: #73c6e0;
+
+}
+.cricle{
+    width: 250px;
+    height: ;
+}

@@ -28,6 +28,10 @@ header{
 .link{
     text-decoration: none;
     color: gray;
+    display: flex;
+
+    
+    
 
 }
 .btn{
