@@ -1,0 +1,46 @@
+body{
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 80px);
+    grid-template-rows:repeat(5, 80px);
+    gap: 10px;
+
+}
+.number{
+    grid-column: 1/ -1;
+    color: white;
+    font-size: 50px;
+    text-align: right;
+    padding: 20px;
+}
+button{
+    border-radius: 50%;
+    font-size: 20px;
+    background: #333;
+    color: white;
+
+
+}
+.sign{
+    background: #a5a5a5;
+    color: black;
+
+}
+.operator{
+    background: orange;
+    color: white;
+}
+.zero{
+    grid-column: span 2;
+    border-radius: 40px;
+    text-align: left;
+    padding: 30px;
+}
