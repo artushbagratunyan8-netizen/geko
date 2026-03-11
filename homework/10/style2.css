@@ -1,0 +1,33 @@
+body{
+    background: #1f2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh ;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 1fr 2fr 1fr ;
+    gap: 20px;
+    width: 100px;
+
+}
+.box{
+    aspect-ratio: 2/1;
+}
+.box1{
+    grid-column: 1/span 2;
+    background:#ffb366;
+}
+.box2{
+   background:  #4da685;
+}
+.box3{
+    background: #f07a67;
+}
+.box4{
+    grid-column: 1/span 2;
+    background: #66c2a5;
+}
