@@ -1,0 +1,29 @@
+.container{
+    
+    width: 400px;
+    height: 300px;
+    background: #C74E4E;
+    padding: 90px;
+}
+.row{
+    width: 10px;
+    height: 5px;
+    background: #E0E246;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.round{
+width: 20px;
+aspect-ratio: 1/1;
+background: white;
+border-radius: 50%;
+}
+.box{
+width: 20px;
+aspect-ratio: 1/1;
+background: yellow;
+border-radius: 5px;
+
+}

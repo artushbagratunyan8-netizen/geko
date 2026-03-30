@@ -1,0 +1,43 @@
+*{   margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-color: #0f172a;
+    padding: 20px 60px;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    
+    color: white;
+    font-weight: 700;
+    letter-spacing: 2px;
+
+    
+}
+
+.navbar{
+    display: flex;
+    gap: 40px;
+}
+.link{
+    text-decoration: none;
+    color: gray;
+    display: flex;
+
+    
+    
+
+}
+.btn{
+    background-color: blue;
+    color: white;
+    border: none;
+    padding: 8px 20px;
+    border-radius: 20px;
+}

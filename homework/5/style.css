@@ -1,0 +1,121 @@
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: black;
+}
+
+
+#site-header {
+  background-color: black;
+  padding: 20px;
+}
+
+
+#site-header h1 {
+  color: white;
+  margin-bottom: 10px;
+}
+
+
+
+#site-header nav {
+  background-color: blue;
+  padding: 10px;
+}
+
+
+
+#site-header nav a {
+  color: white;
+  
+  margin-right: 15px;
+  padding: 5px 10px;
+}
+
+
+#site-header nav a[target="_blank"] {
+  color: skyblue;
+  border: 1px solid skyblue;
+}
+
+
+#main-content {
+  padding: 20px;
+}
+
+
+.card {
+  width: 300px;                 
+  margin-bottom: 20px;          
+  padding: 15px;                
+  border: 2px solid black;
+  border-radius: 8px;          
+  background-color: white;
+}
+
+
+.card > h2 {
+  margin-bottom: 10px;
+}
+
+
+.card p {
+  margin-bottom: 10px;
+}
+
+
+
+.card[data-type="featured"] {
+  border-color: gold;
+  background-color: wheat;
+}
+
+
+
+form input {
+  display: block;
+  width: 250px;
+  padding: 8px;                 
+  margin-bottom: 10px;         
+  border: 2px solid gray;
+}
+
+
+input[type="password"] {
+  border-color: red;
+  background-color: white;
+}
+
+
+
+button {
+  padding: 10px 20px;
+  border: 2px solid #1e293b;
+  background-color: white;
+  cursor: pointer;
+}
+
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+
+
+footer {
+  margin-top: 30px;
+  padding: 15px;
+  text-align: center;
+  background-color: white;
+}
+
