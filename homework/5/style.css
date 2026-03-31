@@ -36,13 +36,11 @@ body {
 
 #site-header nav a {
   color: white;
-  
-  margin-right: 15px;
   padding: 5px 10px;
 }
 
 
-#site-header nav a[target="_blank"] {
+#site-header {
   color: skyblue;
   border: 1px solid skyblue;
 }
@@ -54,8 +52,7 @@ body {
 
 
 .card {
-  width: 300px;                 
-  margin-bottom: 20px;          
+  width: 300px;                         
   padding: 15px;                
   border: 2px solid black;
   border-radius: 8px;          

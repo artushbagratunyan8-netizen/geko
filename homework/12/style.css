@@ -40,7 +40,7 @@ body{
         box-shadow: 0 0 50px red;
     }
     21%,79%{
-        background: gray;
+        background: rgb(64, 2, 2);
         box-shadow: none;} 
         81%,100%{
             background: red;
@@ -53,7 +53,7 @@ body{
         box-shadow: 0 0 50px yellow;
     }
     31%,70%{
-        background: gray;
+        background: rgb(98, 98, 0);
         box-shadow: none;
     }
     71%,80%{
@@ -61,30 +61,30 @@ body{
         box-shadow: 0 0 50px yellow;
     }
     81%,100%{
-        background: gray;
+        background: rgb(98, 98, 0);
         box-shadow: none;
     }
 
 }
 @keyframes green{
     0%,30%{
-        background: gray;
+        background: rgb(0, 81, 0);
         box-shadow: none;
     }
     31%,60%{
-        background: green;
-        box-shadow: 0 0 50px green;
+        background: lime;
+        box-shadow: 0 0 50px lime;
     }
-    61%{background: gray; box-shadow: none;}
+    61%{background: rgb(0, 81, 0); box-shadow: none;}
     63%{
-        background: green;
-        box-shadow: 0 0 50px green;}
-        65%{background: gray; box-shadow: none;}
+        background: lime;
+        box-shadow: 0 0 50px lime;}
+        65%{background: rgb(0, 81, 0); box-shadow: none;}
         67%{
-            background: green;
-            box-shadow: 0 0 50px green;}
+            background: lime;
+            box-shadow: 0 0 50px lime;}
             70%,100%{
-                background: gray;
+                background: rgb(0, 81, 0);
                 box-shadow:  none;
             }
 
