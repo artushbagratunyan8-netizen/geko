@@ -19,7 +19,7 @@ function login(users, username, password) {
             return;
         }
     }
-    console.log("Օգտատեռը չի գտնվել");
+    console.log("Օգտատերը չի գտնվել");
 }
 login(users, "admin", "1234");
 login(users, "john", "qwerty");
