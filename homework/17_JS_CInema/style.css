@@ -5,7 +5,7 @@ body {
 
 #cinema {
   display: grid;
-  grid-template-columns: repeat(8, 40px);
+  grid-template-columns: repeat(8, 1fr);
   gap: 10px;
   justify-content: center;
   margin: 20px;
@@ -28,10 +28,8 @@ body {
 
 .occupied {
   background-color: #F44336;
-  cursor: not-allowed;
 }
 
 button {
-  padding: 10px 20px;
   font-size: 16px;
 }
