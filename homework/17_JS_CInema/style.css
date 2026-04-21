@@ -1,0 +1,37 @@
+body {
+  font-family: Arial;
+  text-align: center;
+}
+
+#cinema {
+  display: grid;
+  grid-template-columns: repeat(8, 40px);
+  gap: 10px;
+  justify-content: center;
+  margin: 20px;
+}
+
+.seat {
+  width: 40px;
+  height: 40px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.free {
+  background-color: #4CAF50;
+}
+
+.selected {
+  background-color: #FFC107;
+}
+
+.occupied {
+  background-color: #F44336;
+  cursor: not-allowed;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+}
