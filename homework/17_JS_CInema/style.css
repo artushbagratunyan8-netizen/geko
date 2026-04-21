@@ -1,6 +1,13 @@
 body {
   font-family: Arial;
   text-align: center;
+  background: #0d0242;
+}
+h1{
+  color: white;
+}
+p{
+  color: white;
 }
 
 #cinema {
@@ -9,6 +16,7 @@ body {
   gap: 10px;
   justify-content: center;
   margin: 20px;
+  gap: 40px;
 }
 
 .seat {
@@ -31,5 +39,6 @@ body {
 }
 
 button {
+  padding: 10px 20px;
   font-size: 16px;
 }
