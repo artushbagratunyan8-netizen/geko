@@ -1,0 +1,26 @@
+.ratingContainer {
+  display: flex;
+  align-items: center;
+}
+
+.star {
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  transition: transform 0.2s ease;
+}
+
+.star:hover {
+  transform: scale(1.1);
+}
+
+.filled {
+  fill: #e27233;
+}
+
+.empty {
+  fill: none;
+  stroke: #e27233;
+  stroke-width: 2;
+  stroke-linejoin: round;
+}

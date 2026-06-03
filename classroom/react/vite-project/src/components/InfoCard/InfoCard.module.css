@@ -1,0 +1,94 @@
+.cardContainer {
+  background-color: #111111;
+  border: 1px solid #222222;
+  border-radius: 20px;
+  padding: 24px;
+  width: 100%;
+  max-width: 380px;
+  color: #ffffff;
+  font-family: 'Inter', sans-serif;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+}
+
+.topSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.infoLeft {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.trustText {
+  color: #888888;
+  font-size: 13px;
+  margin: 0;
+  line-height: 1.4;
+}
+
+.statsNumber {
+  font-size: 42px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
+  line-height: 1;
+}
+
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, #222 0%, #333 50%, #222 100%);
+  margin-bottom: 20px;
+}
+
+.testimonialSection {
+  display: flex;
+  gap: 16px;
+  align-items: flex-start;
+}
+
+.avatar {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #e27233;
+}
+
+.quoteContainer {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.quoteIcon {
+  color: #e27233;
+  font-size: 32px;
+  line-height: 1;
+  position: absolute;
+  left: -12px;
+  top: -10px;
+  opacity: 0.3;
+}
+
+.quoteText {
+  color: #cccccc;
+  font-size: 14px;
+  margin: 0 0 8px 0;
+  line-height: 1.5;
+  font-style: italic;
+}
+
+.authorName {
+  font-size: 13px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.authorRole {
+  font-size: 11px;
+  color: #666666;
+}
