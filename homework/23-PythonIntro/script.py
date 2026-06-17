@@ -60,6 +60,7 @@ tasks = [
     "Sleep"
 ]
 for task in tasks:
-    print(tasks)
+    print(task)
 
-
+sales = [12000, 15000, 8000, 22000]
+print(sum(sales))
